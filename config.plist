@@ -196,9 +196,17 @@
 				<data>
 				BgAmFg==
 				</data>
+				<key>device-id</key>
+				<data>
+				FhYAAA==
+				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-camellia</key>
+				<data>
+				AAAAAA==
 				</data>
 				<key>framebuffer-con0-enable</key>
 				<data>
@@ -207,18 +215,6 @@
 				<key>framebuffer-con0-pipe</key>
 				<data>
 				EgAAAA==
-				</data>
-				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
 				</data>
 				<key>framebuffer-con2-enable</key>
 				<data>
@@ -232,17 +228,29 @@
 				<data>
 				AAgAAA==
 				</data>
-				<key>framebuffer-fbmem</key>
+				<key>framebuffer-flags</key>
 				<data>
-				AACQAA==
+				CwsAAA==
+				</data>
+				<key>framebuffer-memorycount</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>framebuffer-mobile</key>
+				<data>
+				AQAAAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-stolenmem</key>
+				<key>framebuffer-pipecount</key>
 				<data>
-				AAAwAQ==
+				AwAAAA==
+				</data>
+				<key>framebuffer-portcount</key>
+				<data>
+				AwAAAA==
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17D102</string>
+	<string>18E194d</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2.6</string>
+	<string>1.2.7</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,23 +25,171 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.2.6</string>
+	<string>1.2.7</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9F2000</string>
+	<string>10B61</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17E189</string>
+	<string>18B71</string>
 	<key>DTSDKName</key>
-	<string>macosx10.13</string>
+	<string>macosx10.14</string>
 	<key>DTXcode</key>
-	<string>0941</string>
+	<string>1010</string>
 	<key>DTXcodeBuild</key>
-	<string>9F2000</string>
+	<string>10B61</string>
+	<key>GPUCompanionBundles</key>
+	<array>
+		<string>AMDRadeonX4000GLDriver.bundle</string>
+		<string>AMDRadeonVADriver.bundle</string>
+		<string>AMDMTLBronzeDriver.bundle</string>
+	</array>
 	<key>IOKitPersonalities</key>
 	<dict>
+		<key>AMDBaffin</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMDRadeonX4000</string>
+			<key>GpuDebugPolicy</key>
+			<integer>0</integer>
+			<key>IOClass</key>
+			<string>AMDRadeonX4000_AMDBaffinGraphicsAccelerator</string>
+			<key>IODVDBundleName</key>
+			<string>AMDRadeonVADriver2</string>
+			<key>IOGVACodec</key>
+			<string>AMDU6V3</string>
+			<key>IOGVAHEVCDecode</key>
+			<string>1</string>
+			<key>IOGVAHEVCEncode</key>
+			<string>1</string>
+			<key>IOGVAVTCapabilities</key>
+			<dict>
+				<key>VTPerProfileDetails</key>
+				<dict>
+					<key>1</key>
+					<dict>
+						<key>VTMaxDecodeLevel</key>
+						<integer>153</integer>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>VTMaxDecodeLevel</key>
+						<integer>153</integer>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>VTMaxDecodeLevel</key>
+						<integer>153</integer>
+					</dict>
+				</dict>
+				<key>VTSupportedProfileArray</key>
+				<array>
+					<integer>1</integer>
+					<integer>2</integer>
+					<integer>3</integer>
+				</array>
+			</dict>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOMatchCategory</key>
+			<string>IOAccelerator</string>
+			<key>IOPCIMatch</key>
+			<string>0x67E01002 0x67E31002 0x67E81002 0x67EB1002 0x67EF1002 0x67FF1002 0x67E11002 0x67E71002 0x67E91002</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>LoadAccelerator</key>
+				<true/>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOSourceVersion</key>
+			<string>0.0.0.0.0</string>
+			<key>IOVARendererID</key>
+			<integer>16908288</integer>
+			<key>cail_properties</key>
+			<dict>
+				<key>CAIL_DisableQuickGfxMGPowerGating</key>
+				<integer>0</integer>
+				<key>CAIL_DisableStaticGfxMGPowerGating</key>
+				<integer>1</integer>
+				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>AMDEllesmere</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMDRadeonX4000</string>
+			<key>GpuDebugPolicy</key>
+			<integer>0</integer>
+			<key>IOClass</key>
+			<string>AMDRadeonX4000_AMDEllesmereGraphicsAccelerator</string>
+			<key>IODVDBundleName</key>
+			<string>AMDRadeonVADriver2</string>
+			<key>IOGVACodec</key>
+			<string>AMDU6V3</string>
+			<key>IOGVAHEVCDecode</key>
+			<string>1</string>
+			<key>IOGVAHEVCEncode</key>
+			<string>1</string>
+			<key>IOGVAVTCapabilities</key>
+			<dict>
+				<key>VTPerProfileDetails</key>
+				<dict>
+					<key>1</key>
+					<dict>
+						<key>VTMaxDecodeLevel</key>
+						<integer>153</integer>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>VTMaxDecodeLevel</key>
+						<integer>153</integer>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>VTMaxDecodeLevel</key>
+						<integer>153</integer>
+					</dict>
+				</dict>
+				<key>VTSupportedProfileArray</key>
+				<array>
+					<integer>1</integer>
+					<integer>2</integer>
+					<integer>3</integer>
+				</array>
+			</dict>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOMatchCategory</key>
+			<string>IOAccelerator</string>
+			<key>IOPCIMatch</key>
+			<string>0x67C01002 0x67C11002 0x67C21002 0x67C41002 0x67C71002 0x67DF1002 0x67D01002 0x67C81002 0x67C91002 0x67CA1002 0x67CC1002 0x67CF1002</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>LoadAccelerator</key>
+				<true/>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOSourceVersion</key>
+			<string>0.0.0.0.0</string>
+			<key>IOVARendererID</key>
+			<integer>16908288</integer>
+			<key>cail_properties</key>
+			<dict>
+				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+				<key>CAIL_EnableMaxPayloadSizeSync</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
 		<key>AppleIntelPanelA</key>
 		<dict>
 			<key>ApplePanels</key>

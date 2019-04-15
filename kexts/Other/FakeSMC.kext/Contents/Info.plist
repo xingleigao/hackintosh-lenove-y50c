@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15G1611</string>
+	<string>17G65</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.5.0</string>
+	<string>3.5.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,11 +25,11 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3.5.0</string>
+	<string>3.5.1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7D1014</string>
+	<string>9F2000</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -37,24 +37,11 @@
 	<key>DTSDKName</key>
 	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>0731</string>
+	<string>0941</string>
 	<key>DTXcodeBuild</key>
-	<string>7D1014</string>
+	<string>9F2000</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>BroadcomUSBBluetoothHCIController</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
-			<key>IOClass</key>
-			<string>BroadcomBluetoothHostControllerUSBTransport</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostDevice</string>
-			<key>idProduct</key>
-			<integer>12308</integer>
-			<key>idVendor</key>
-			<integer>1226</integer>
-		</dict>
 		<key>SMC Device Emulator</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -96,13 +83,6 @@
 						<string>{alv</string>
 						<data>
 						AQEDtwCjABVq9A==
-						</data>
-					</array>
-					<key>ALV1</key>
-					<array>
-						<string>{alv</string>
-						<data>
-						AAEAAAAAAAAAAA==
 						</data>
 					</array>
 					<key>CLKH</key>
@@ -264,6 +244,50 @@
 			<string>AppleACPIPlatformExpert</string>
 			<key>IOResourceMatch</key>
 			<string>ACPI</string>
+		</dict>
+		<key>Wired Keyboard 2007 ANSI Map</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleHIDKeyboard</string>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>6</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>7</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>FWCapsLockDelay</key>
+			<true/>
+			<key>FnFunctionUsageMap</key>
+			<string>0x0007003a,0xff010021,0x0007003b,0xff010020,0x0007003c,0xff010010,0x0007003d,0xff010002,0x00070040,0x000C00B4,0x00070041,0x000C00CD,0x00070042,0x000C00B3,0x00070043,0x000C00E2,0x00070044,0x000C00EA,0x00070045,0x000C00E9</string>
+			<key>FnKeyboardUsageMap</key>
+			<string>0x00070050,0x0007004a,0x00070052,0x0007004b,0x0007002a,0x0007004c,0x0007004f,0x0007004d,0x00070051,0x0007004e,0x00070028,0x00070058</string>
+			<key>FnModifierUsage</key>
+			<integer>3</integer>
+			<key>FnModifierUsagePage</key>
+			<integer>255</integer>
+			<key>HIDDefaultBehavior</key>
+			<string>Keyboard</string>
+			<key>IOClass</key>
+			<string>AppleHIDKeyboardEventDriver</string>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+			<key>ProductID</key>
+			<integer>8467</integer>
+			<key>StandardType</key>
+			<integer>0</integer>
+			<key>VendorID</key>
+			<integer>16700</integer>
+			<key>alt_handler_id</key>
+			<integer>46</integer>
 		</dict>
 	</dict>
 	<key>OSBundleCompatibleVersion</key>
